@@ -22,16 +22,16 @@ export class Product implements OnInit {
   ) {}
 
   //ngOnInit() {
-   // console.log('ngOnInit called!'); // ეს დაამატე პირველ ხაზად
+   // console.log('ngOnInit called!'); 
   //  this.Service.getAllProducts().subscribe(res => {
    //   console.log(res);
    //   this.products = res.products;
-   //   this.cdr.detectChanges(); // ეს დაამატე
+   //   this.cdr.detectChanges(); 
    // });
    ngOnInit() {
     this.Service.getAllProducts().subscribe(res => {
       this.products = res.products;
-      this.cdr.detectChanges(); // ეს დაამატე
+      this.cdr.detectChanges(); 
     });
   }
 
